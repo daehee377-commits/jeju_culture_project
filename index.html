@@ -80,6 +80,7 @@
 </main>
 <footer>점수는 입문 추천도이며 주관적 값입니다. 연도·지정 정보는 방문 전 공식 자료로 확인하세요.</footer>
 
+<script src="jeju_culture.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 let items = [], category = "전체";
@@ -143,17 +144,21 @@ $("grid").addEventListener("click", e => {
 $("q").addEventListener("input", render);
 $("sort").addEventListener("change", render);
 
+function start(data) {
+  items = data.items;
+  const saved = loadSaved();
+  if (Array.isArray(saved)) items.forEach(i => i.selected = saved.includes(i.name));
+  renderChips(); render();
+}
+
+// 서버/배포 주소에서는 JSON을 읽고, 파일(file://)로 열어 fetch가 막히면 jeju_culture.js의 데이터를 쓴다
 fetch("jeju_culture.json")
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(data => {
-    items = data.items;
-    const saved = loadSaved();
-    if (Array.isArray(saved)) items.forEach(i => i.selected = saved.includes(i.name));
-    renderChips(); render();
-  })
+  .then(start)
   .catch(() => {
+    if (window.JEJU_DATA) return start(window.JEJU_DATA);
     $("msg").hidden = false;
-    $("msg").textContent = "데이터를 불러오지 못했습니다. 파일을 직접 열지 말고 로컬 서버나 배포 주소로 접속하세요.";
+    $("msg").textContent = "데이터를 불러오지 못했습니다.";
   });
 </script>
 </body>

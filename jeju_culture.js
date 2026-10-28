@@ -1,0 +1,767 @@
+window.JEJU_DATA = {
+    "region":  "제주특별자치도",
+    "topic":  "제주 문화·역사",
+    "note":  "score는 입문 추천도(0~100)이며 주관적 값입니다. selected가 true이면 \u0027가 보고 싶은 곳\u0027 기본 목록에 들어갑니다. 연도·지정 번호 등은 방문·인용 전 공식 자료로 확인하세요.",
+    "items":  [
+                  {
+                      "name":  "설문대할망",
+                      "category":  "설화·신화",
+                      "description":  "제주를 만든 거대한 여신. 치마폭에 흙을 날라 한라산을 쌓았고, 치마 터진 틈으로 흘러내린 흙이 오름이 되었다고 전한다.",
+                      "score":  100,
+                      "selected":  true,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "신화 시대"
+                  },
+                  {
+                      "name":  "오백장군 설화",
+                      "category":  "설화·신화",
+                      "description":  "설문대할망의 오백 아들이 어머니를 잃고 슬퍼하다 바위가 되었다는 이야기. 한라산 영실의 기암 지대와 연결된다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "신화 시대"
+                  },
+                  {
+                      "name":  "삼성혈 건국신화",
+                      "category":  "설화·신화",
+                      "description":  "땅에서 고을나·양을나·부을나 세 신인이 솟아나 탐라를 열었다는 건국신화.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "탐라 건국"
+                  },
+                  {
+                      "name":  "벽랑국 세 공주와 혼인지",
+                      "category":  "설화·신화",
+                      "description":  "벽랑국 세 공주가 오곡 씨앗과 망아지·송아지를 가져와 세 신인과 혼인하며 농경과 목축이 시작되었다고 전한다. 성산읍 온평리에 혼인지가 있다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "탐라 건국"
+                  },
+                  {
+                      "name":  "영등할망",
+                      "category":  "설화·신화",
+                      "description":  "음력 2월에 바다 건너와 한 달 머물며 바람을 일으키고 해녀의 바다에 씨앗을 뿌린다는 바람의 여신.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "자청비와 문도령 (세경본풀이)",
+                      "category":  "설화·신화",
+                      "description":  "씩씩한 여인 자청비가 사랑과 시련 끝에 농경의 신 세경이 되는 이야기. 제주 무속 신화 본풀이의 대표작.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "송당본풀이",
+                      "category":  "설화·신화",
+                      "description":  "구좌읍 송당리 본향당의 신 금백주와 소로소천국 부부 이야기. 많은 마을 신의 뿌리로 여겨진다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "칠성본풀이",
+                      "category":  "설화·신화",
+                      "description":  "뱀을 집과 곡식을 지키는 칠성신으로 모시게 된 내력을 전하는 본풀이.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "고종달(호종단) 설화",
+                      "category":  "설화·신화",
+                      "description":  "중국 풍수사가 제주의 맥을 끊으러 왔다가 한라산신이 일으킨 풍랑으로 배가 가라앉았다는 이야기. 차귀도 지명 유래와 연결된다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "산방산 설화",
+                      "category":  "설화·신화",
+                      "description":  "사냥꾼이 쏜 화살에 옥황상제가 노해 한라산 봉우리를 뽑아 던졌고, 뽑힌 자리가 백록담, 떨어진 봉우리가 산방산이 되었다고 한다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "용머리해안 전설",
+                      "category":  "설화·신화",
+                      "description":  "용이 바다로 나가려다 굳어버린 모습이 용머리해안이라는 전설.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "민간 전승"
+                  },
+                  {
+                      "name":  "김녕사굴 설화",
+                      "category":  "설화·신화",
+                      "description":  "해마다 처녀를 바치게 하던 큰 뱀을 서련 판관이 퇴치했다는 이야기. 김녕굴을 배경으로 한다.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "해녀문화",
+                      "category":  "전통문화",
+                      "description":  "숨을 참고 바다에서 해산물을 채취하는 제주 여성들의 공동체 문화. 2016년 유네스코 인류무형문화유산에 등재되었다.",
+                      "score":  100,
+                      "selected":  true,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주 밭담",
+                      "category":  "전통문화",
+                      "description":  "돌이 많은 밭 둘레에 쌓은 돌담. 바람과 소·말로부터 작물을 지키며, 2013년 FAO 세계중요농업유산에 등재되었다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주칠머리당영등굿",
+                      "category":  "전통문화",
+                      "description":  "해녀와 어부의 안전과 풍어를 비는 영등굿. 2009년 유네스코 인류무형문화유산에 등재되었다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주어",
+                      "category":  "전통문화",
+                      "description":  "옛말의 흔적을 간직한 제주 고유의 언어. 2010년 유네스코가 소멸 위기 언어로 분류해 보존 노력이 이어지고 있다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "정낭과 정주석",
+                      "category":  "전통문화",
+                      "description":  "대문 대신 세우는 돌기둥(정주석)에 나무(정낭)를 걸쳐, 걸친 개수로 집주인의 부재 여부를 알리던 방식.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "신구간",
+                      "category":  "전통문화",
+                      "description":  "대한 후 5일부터 입춘 전 3일까지, 집을 지키는 신들이 하늘로 올라가 이사나 집수리를 해도 탈이 없다고 여기는 기간.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주 초가",
+                      "category":  "전통문화",
+                      "description":  "센 바람을 견디도록 지붕을 새끼줄로 그물처럼 촘촘히 엮고 낮게 지은 전통 가옥.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "돌하르방",
+                      "category":  "전통문화",
+                      "description":  "성문 앞에 세웠다고 전해지는 돌 수호상. 제주를 상징하는 조형물이 되었다.",
+                      "score":  100,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "방사탑",
+                      "category":  "전통문화",
+                      "description":  "마을의 허한 곳을 막고 액운을 물리치기 위해 돌로 쌓은 탑.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "갈옷",
+                      "category":  "전통문화",
+                      "description":  "덜 익은 감의 즙으로 물들여 만든 옷. 질기고 땀이 잘 마르며 농부와 어부의 작업복으로 입었다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "테우",
+                      "category":  "전통문화",
+                      "description":  "통나무를 엮어 만든 제주 전통 뗏목. 자리돔 낚시와 멸치 잡이 등 연안 어업에 쓰였다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "물허벅과 물구덕",
+                      "category":  "전통문화",
+                      "description":  "샘에서 물을 길어 나르던 항아리(허벅)와 이를 지던 바구니(구덕). 물이 귀했던 섬 생활의 상징.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "돗통시",
+                      "category":  "전통문화",
+                      "description":  "변소와 돼지우리를 겸한 제주의 전통 화장실. 흑돼지를 키우며 거름을 얻던 순환 방식이었다.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주마(조랑말)",
+                      "category":  "전통문화",
+                      "description":  "제주에서 길러온 토종 말. 몸집이 작고 강인하며 천연기념물 제347호로 보호받는다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "고려~현재"
+                  },
+                  {
+                      "name":  "해녀 불턱",
+                      "category":  "전통문화",
+                      "description":  "해녀들이 물질 전후에 옷을 갈아입고 불을 쬐며 정보를 나누던 돌담 쉼터이자 공동체 공간.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "제주 향토음식 (몸국·빙떡·오메기떡)",
+                      "category":  "전통문화",
+                      "description":  "잔칫날의 몸국, 메밀로 무를 말아낸 빙떡, 좁쌀로 빚은 오메기떡 등 척박한 환경에서 발달한 향토 음식.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "본향당(마을 신당)",
+                      "category":  "전통문화",
+                      "description":  "마을 수호신을 모시는 제주의 신당. \u0027당 오백 절 오백\u0027이라 할 만큼 신앙 문화가 풍부했다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "전승 중"
+                  },
+                  {
+                      "name":  "탐라문화제",
+                      "category":  "전통문화",
+                      "description":  "탐라 건국 신화와 제주 전통을 계승해 매년 가을 열리는 제주 대표 문화 축제.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "삼성혈",
+                      "category":  "유적·문화유산",
+                      "description":  "고·양·부 세 시조가 솟아났다는 세 개의 구멍이 있는 사적 제134호.",
+                      "score":  80,
+                      "selected":  true,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "탐라 건국"
+                  },
+                  {
+                      "name":  "관덕정",
+                      "category":  "유적·문화유산",
+                      "description":  "제주목 관아의 연무정으로 지어진 정자. 제주에서 가장 오래된 목조 건물 중 하나로 보물 제322호.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선 1448년"
+                  },
+                  {
+                      "name":  "제주목 관아",
+                      "category":  "유적·문화유산",
+                      "description":  "조선 시대 제주 통치의 중심이던 관아 터. 사적 제380호로 복원되어 있다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "성읍민속마을",
+                      "category":  "유적·문화유산",
+                      "description":  "옛 정의현 읍성 안에 전통 초가와 돌담, 정낭이 남아 있는 마을. 중요민속문화재 제188호.",
+                      "score":  100,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "항파두리 항몽유적",
+                      "category":  "유적·문화유산",
+                      "description":  "삼별초가 몽골에 맞서 쌓은 토성과 유적. 사적 제396호.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "고려 1270년대"
+                  },
+                  {
+                      "name":  "삼양동 선사유적",
+                      "category":  "유적·문화유산",
+                      "description":  "수많은 집터가 드러난 제주의 대표적 선사 마을 유적. 사적 제416호.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "청동기~초기철기"
+                  },
+                  {
+                      "name":  "환해장성",
+                      "category":  "유적·문화유산",
+                      "description":  "외적 침입에 대비해 해안선을 따라 쌓은 돌 성벽.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "고려~조선"
+                  },
+                  {
+                      "name":  "별방진",
+                      "category":  "유적·문화유산",
+                      "description":  "왜구를 막기 위해 구좌읍 하도리에 쌓은 방어 진성.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선 1510년"
+                  },
+                  {
+                      "name":  "오현단",
+                      "category":  "유적·문화유산",
+                      "description":  "제주와 인연이 있는 다섯 선현(김정·송인수·정온·송시열·김상헌)을 기리는 터.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "제주향교",
+                      "category":  "유적·문화유산",
+                      "description":  "조선 시대 제주목의 교육 기관으로 유학을 가르치던 곳.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "연북정",
+                      "category":  "유적·문화유산",
+                      "description":  "조천포구 인근 정자. 유배객과 관리들이 북쪽 임금을 그리워하며 바라보았다는 이름에서 유래했다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "조선"
+                  },
+                  {
+                      "name":  "산방굴사",
+                      "category":  "유적·문화유산",
+                      "description":  "산방산 중턱 천연 동굴에 모신 불상과 샘물이 있는 암굴 사원.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "고려~조선"
+                  },
+                  {
+                      "name":  "하멜상선전시관",
+                      "category":  "유적·문화유산",
+                      "description":  "네덜란드인 하멜 일행이 표착한 용머리해안 인근에 복원된 상선과 전시관.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "조선 1653년"
+                  },
+                  {
+                      "name":  "법정사 터",
+                      "category":  "유적·문화유산",
+                      "description":  "1918년 제주 최초의 대규모 항일 운동이 일어난 사찰 터.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "일제강점기"
+                  },
+                  {
+                      "name":  "알뜨르 비행장과 지하 격납고",
+                      "category":  "유적·문화유산",
+                      "description":  "일제가 태평양전쟁기에 건설한 군용 비행장과 콘크리트 격납고가 남은 전쟁 유적.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "일제강점기"
+                  },
+                  {
+                      "name":  "섯알오름 학살터",
+                      "category":  "유적·문화유산",
+                      "description":  "한국전쟁 직후 예비검속된 주민들이 희생된 장소. 추모 공간이 조성되어 있다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1950년"
+                  },
+                  {
+                      "name":  "북촌 너븐숭이 4·3 유적",
+                      "category":  "유적·문화유산",
+                      "description":  "1949년 북촌리 주민 수백 명이 희생된 현장. 기념관과 위령 공간이 있다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1949년"
+                  },
+                  {
+                      "name":  "탐라국과 \u0027제주\u0027 명칭의 유래",
+                      "category":  "역사 사건",
+                      "description":  "독자적 해상 왕국 탐라가 고려에 편입되며 점차 지위가 낮아졌고, 1211년 \u0027제주\u0027라는 이름이 쓰이기 시작했다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "고대~고려 1211년"
+                  },
+                  {
+                      "name":  "삼별초 항쟁",
+                      "category":  "역사 사건",
+                      "description":  "삼별초가 항파두리에서 몽골에 맞섰으나 1273년 여몽연합군에 패배했다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1270~1273년"
+                  },
+                  {
+                      "name":  "원나라 지배와 말 목장",
+                      "category":  "역사 사건",
+                      "description":  "원이 제주를 직접 관할하며 목마장을 설치해 말 사육 문화가 크게 자리 잡았다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "고려 1273~1300년대"
+                  },
+                  {
+                      "name":  "목호의 난",
+                      "category":  "역사 사건",
+                      "description":  "원나라 계통 목호들이 반란을 일으키자 최영이 이끈 고려군이 진압한 사건.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "1374년"
+                  },
+                  {
+                      "name":  "출륙금지령",
+                      "category":  "역사 사건",
+                      "description":  "조선이 제주 사람의 육지 이동을 약 200년간 금지해 섬이 고립되고 독자적 문화가 깊어졌다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "1629~1823년"
+                  },
+                  {
+                      "name":  "하멜 표류",
+                      "category":  "역사 사건",
+                      "description":  "네덜란드 상선이 제주 해안에 표착해 하멜 일행이 조선에 억류되었고, 훗날 조선을 서양에 알리는 기록이 되었다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1653년"
+                  },
+                  {
+                      "name":  "김만덕의 구휼",
+                      "category":  "역사 사건",
+                      "description":  "대기근 때 재산을 털어 곡식을 사 와 굶주린 제주 사람들을 구한 일.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1795년"
+                  },
+                  {
+                      "name":  "신축제주항쟁(이재수의 난)",
+                      "category":  "역사 사건",
+                      "description":  "과도한 세금과 천주교 세력의 횡포에 맞서 민중이 봉기한 사건.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1901년"
+                  },
+                  {
+                      "name":  "법정사 항일운동",
+                      "category":  "역사 사건",
+                      "description":  "승려와 주민들이 일제에 맞서 무장 항쟁을 일으킨 제주 최초의 대규모 항일 운동.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1918년"
+                  },
+                  {
+                      "name":  "제주 해녀 항일운동",
+                      "category":  "역사 사건",
+                      "description":  "일제의 수탈과 부당한 대우에 맞서 구좌·성산 일대 해녀들이 벌인 대규모 항일 투쟁.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1931~1932년"
+                  },
+                  {
+                      "name":  "제주 4·3 사건",
+                      "category":  "역사 사건",
+                      "description":  "해방 이후 이념 갈등과 무력 충돌 속에서 많은 주민이 희생된 현대사의 비극. 2000년 특별법이 제정되어 진상 규명과 추모가 이어지고 있다.",
+                      "score":  100,
+                      "selected":  true,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "1947~1954년"
+                  },
+                  {
+                      "name":  "제주특별자치도 출범",
+                      "category":  "역사 사건",
+                      "description":  "1946년 전라남도에서 분리되어 도가 된 제주가 2006년 특별자치도로 출범했다.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주 전역",
+                      "period":  "2006년"
+                  },
+                  {
+                      "name":  "김만덕",
+                      "category":  "인물",
+                      "description":  "객주로 큰 재산을 모아 흉년에 사재로 백성을 살린 여성 상인. 정조에게서 상을 받았다.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1739~1812년"
+                  },
+                  {
+                      "name":  "추사 김정희",
+                      "category":  "인물",
+                      "description":  "1840년부터 약 9년간 대정에서 유배 생활을 하며 추사체를 완성하고 〈세한도〉를 그렸다.",
+                      "score":  100,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1786~1856년"
+                  },
+                  {
+                      "name":  "김통정 장군",
+                      "category":  "인물",
+                      "description":  "삼별초를 이끌고 제주에서 항전한 장군. 항파두리성에 얽힌 설화가 많다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "고려 13세기"
+                  },
+                  {
+                      "name":  "이재수",
+                      "category":  "인물",
+                      "description":  "신축제주항쟁을 이끈 민중 지도자.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1901년"
+                  },
+                  {
+                      "name":  "헨드릭 하멜",
+                      "category":  "인물",
+                      "description":  "제주에 표착한 네덜란드 선원. 조선 생활을 기록한 《하멜 표류기》를 남겼다.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1653년"
+                  },
+                  {
+                      "name":  "이중섭",
+                      "category":  "인물",
+                      "description":  "한국전쟁 피난 중 서귀포에서 가족과 지내며 서귀포의 바다와 게, 아이들 그림을 남긴 화가.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "1916~1956년"
+                  },
+                  {
+                      "name":  "부춘화·김옥련·부덕량",
+                      "category":  "인물",
+                      "description":  "해녀 항일운동을 이끈 대표적 해녀 지도자들.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1930년대"
+                  },
+                  {
+                      "name":  "광해군 유배",
+                      "category":  "인물",
+                      "description":  "폐위된 광해군이 제주로 옮겨져 유배 생활 끝에 생을 마친 일.",
+                      "score":  40,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "1637~1641년"
+                  },
+                  {
+                      "name":  "국립제주박물관",
+                      "category":  "박물관·기념관",
+                      "description":  "탐라의 선사부터 조선까지 제주의 역사와 문화 유물을 전시하는 국립박물관.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "제주민속자연사박물관",
+                      "category":  "박물관·기념관",
+                      "description":  "제주의 민속 생활 도구와 화산섬 자연사를 함께 소개하는 박물관.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "제주4·3평화기념관",
+                      "category":  "박물관·기념관",
+                      "description":  "4·3의 전개와 희생자를 기억하는 전시관과 위령 공원.",
+                      "score":  100,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "해녀박물관",
+                      "category":  "박물관·기념관",
+                      "description":  "구좌읍 하도리에 있는 해녀의 삶과 물질 도구, 항일운동을 소개하는 박물관.",
+                      "score":  100,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "제주돌문화공원",
+                      "category":  "박물관·기념관",
+                      "description":  "설문대할망 신화를 바탕으로 제주의 돌 문화를 전시한 공원.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "추사관",
+                      "category":  "박물관·기념관",
+                      "description":  "추사 김정희의 유배 생활과 작품을 소개하는 대정읍 전시관.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "이중섭미술관",
+                      "category":  "박물관·기념관",
+                      "description":  "이중섭이 피난 시절 머물던 서귀포에 세워진 미술관과 주변 거리.",
+                      "score":  80,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "서귀포시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "김만덕기념관",
+                      "category":  "박물관·기념관",
+                      "description":  "김만덕의 삶과 나눔 정신을 기리는 기념관.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  },
+                  {
+                      "name":  "제주항일기념관",
+                      "category":  "박물관·기념관",
+                      "description":  "제주의 항일 운동 역사를 전시한 조천읍의 기념관.",
+                      "score":  60,
+                      "selected":  false,
+                      "source":  "",
+                      "area":  "제주시",
+                      "period":  "현대"
+                  }
+              ]
+};
